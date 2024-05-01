@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+
+html {   
+    background: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    font-family: "Schoolbell", cursive;
+}
+
+nav {
+    text-align: center;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 999; 
+}
+
+nav li {
+    display: inline;
+    font-size: 30px;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 3%;
+    text-decoration: none;
+    color: #4D94D6;
+}
+
+nav li a:hover{
+    color:#DB7079;
+}
+
+#home {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 70px;
+    text-align: center;
+    font-style: bold;
+    color: #4D94D6;
+}
+
+#about {
+    padding-top: 11%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    display: flex;
+    color: #4D94D6;
+    font-size: 20px;
+}
+
+.sungmin {
+    width: 400px;
+    height: 533px;
+    margin-right: 100px;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.name_study_ability .sungmin {
+    flex: 1;
+}
+
+.ability {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.ability_group {
+    margin: 0 10px;
+}
+
+.ability_group img {
+    width: 50px;
+    height: 50px;
+    margin-right: 2%; 
+    transition: transform 0.3s ease; 
+    color: #4D94D6;
+}
+
+.ability_group img:hover {
+    transform: scale(1.2); /* Enlarge image on hover */
+}
+
+#like {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    color: #4D94D6;
+    font-size: 17px;
+}
+
+.what_like {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.what_like > div {
+    flex: 1;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.what_like img {
+    width: 300px;
+    height: auto;
+}
+
+#goal {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+    color: #4D94D6;
+}
+
+#contact {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+}
+
+.link_img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px; 
+
+}
+
+
+
+
+
+
