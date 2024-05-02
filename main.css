@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
 
 html {   
     background: url('./img/background.png');
@@ -7,12 +9,15 @@ html {
     background-attachment: fixed;
     background-size: cover;
 }
-
+p {
+    font-family: "Gaegu", sans-serif;
+    font-size: 25px;
+}
 * {
     font-family: "Schoolbell", cursive;
 }
-
 nav {
+    
     text-align: center;
     position: fixed; 
     width: 100%; 
@@ -46,7 +51,7 @@ nav li a:hover{
 }
 
 #about {
-    padding-top: 11%;
+    padding-top: 10%;
     padding-bottom: 15%;
     padding-left: 15%;
     display: flex;
@@ -63,6 +68,9 @@ nav li a:hover{
 .name {
     font-size: 45px;
 }
+.name:hover{
+    color:#DB7079;
+}
 
 .name_study_ability .sungmin {
     flex: 1;
@@ -71,14 +79,15 @@ nav li a:hover{
 .ability {
     display: flex;
     padding-top: 10%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 .ability_group {
     margin: 0 10px;
+    flex: 1;
 }
 
-.ability_group img {
+.ability_icon {
     width: 50px;
     height: 50px;
     margin-right: 2%; 
@@ -86,13 +95,14 @@ nav li a:hover{
     color: #4D94D6;
 }
 
-.ability_group img:hover {
-    transform: scale(1.2); /* Enlarge image on hover */
+.ability_icon:hover{
+    transform: scale(1.2); 
 }
 
 #like {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 20%;
     display: flex;
     color: #4D94D6;
     font-size: 17px;
@@ -115,15 +125,28 @@ nav li a:hover{
     height: auto;
 }
 
+.what_like  img:hover{
+    transform: scale(1.01); 
+}
+.what_like  p:hover{
+    transform: scale(1.01); 
+}
+
 #goal {
-    padding-top: 25%;
-    padding-bottom: 25%;
-    font-size: 50px;
+    padding-top: 15%;
+    padding-bottom: 20%;
     text-align: center;
     font-style: bold;
     color: #4D94D6;
 }
 
+.highlight:hover {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #ddc7c9 10%);
+    background-position: bottom;
+    background-size: 100% 30px; 
+    background-repeat: no-repeat; 
+}
+  
 #contact {
     position: fixed;
     bottom: 0;
